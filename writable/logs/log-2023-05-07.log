@@ -1,0 +1,953 @@
+CRITICAL - 2023-05-07 16:35:00 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:35:23 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:36:23 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:36:24 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:36:34 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:36:35 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:37:00 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:38:05 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:03 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:04 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:04 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:05 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:05 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:37 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:38 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:39 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:39:40 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:09 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:23 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:24 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:32 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:34 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:34 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:37 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:43 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:53 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:41:53 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\LoginController.php(12): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:43:38 --> Undefined property: App\Controllers\LoginController::$form_validation
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$form_validation', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:45:38 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:47:23 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:48:08 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:48:49 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:50:16 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:52:53 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 18.
+ 1 APPPATH\Controllers\LoginController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 16:53:15 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 16.
+ 1 APPPATH\Controllers\LoginController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:07:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\LoginModel.php on line 44.
+ 1 APPPATH\Controllers\LoginController.php(18): App\Models\LoginModel->getUserData('51260084@okcl.org', 'dc647eb65e6711e155375218212b3964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:14:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\LoginController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-07 17:15:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org AND password=dc647eb65e6711e155375218212b3964' at line 1 in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(18): App\Models\LoginModel->getUserData('51260084@okcl.o...', 'dc647eb65e6711e...')
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 17:15:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org AND password=dc647eb65e6711e155375218212b3964' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM users WHERE email=51260084@okcl.org AND password=dc647eb65e6711e155375218212b3964', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM users WHERE email=51260084@okcl.org AND password=dc647eb65e6711e155375218212b3964')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM users WHERE email=51260084@okcl.org AND password=dc647eb65e6711e155375218212b3964')
+ 4 APPPATH\Models\LoginModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM users WHERE email=51260084@okcl.org AND password=dc647eb65e6711e155375218212b3964')
+ 5 APPPATH\Controllers\LoginController.php(18): App\Models\LoginModel->getUserData('51260084@okcl.org', 'dc647eb65e6711e155375218212b3964')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:17:11 --> Call to undefined method App\Models\LoginModel::getUserData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(18): CodeIgniter\Model->__call('getUserData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-07 17:17:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d' at line 1 in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(18): App\Models\LoginModel->getUserData('51260084@okcl.o...', '4d2c105ff95dbd8...')
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 17:17:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM users WHERE email=51260084@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM users WHERE email=51260084@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM users WHERE email=51260084@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d')
+ 4 APPPATH\Models\LoginModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM users WHERE email=51260084@okcl.org AND password=4d2c105ff95dbd829718674aadd3254d')
+ 5 APPPATH\Controllers\LoginController.php(18): App\Models\LoginModel->getUserData('51260084@okcl.org', '4d2c105ff95dbd829718674aadd3254d')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:21:40 --> The route for "admin/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(20): redirect('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:21:44 --> The route for "admin/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(20): redirect('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:22:09 --> The route for "admin/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(20): redirect('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:36:55 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(28): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:36:59 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:01 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:18 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:19 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:20 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:20 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:21 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:53 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:37:54 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:00 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:01 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:02 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:03 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:03 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:07 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:23 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:24 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:24 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:25 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:25 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:25 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:33 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:34 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:34 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:35 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:35 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:45 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:38:46 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(14): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:10 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:11 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:11 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:12 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:12 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:18 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:19 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:19 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:20 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:39:20 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:40:11 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:43:35 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:43:37 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:44:35 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:44:36 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:54:11 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:54:12 --> Undefined variable $session
+in APPPATH\Views\index.php on line 191.
+ 1 APPPATH\Views\index.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:56:35 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:56:37 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:56:37 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:56:38 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 17:56:38 --> Undefined variable $session
+in APPPATH\Views\index.php on line 192.
+ 1 APPPATH\Views\index.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\project4\\app\\Views\\index.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

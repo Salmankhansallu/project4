@@ -1,0 +1,84 @@
+/* .has-error input,
+.has-error select.form-control ,
+.has-error textarea {
+    color: red;
+    border-color: red;
+} */
+.has-error .form-control {
+    border-color: red;
+}
+.list-unstyled li {
+    font-size: 16px;
+    padding: 4px 0 0;
+    color: red;
+}
+
+.gradient-title {
+    position: relative;
+    padding: 15px 15px;
+    margin: 15px 0;
+}
+
+.gradient-title:before {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e3e3e3), to(#ffffff));
+    background-image: -webkit-linear-gradient(#ffffff, #e3e3e3);
+    background-image: -moz-linear-gradient(#ffffff, #e3e3e3), -moz-linear-gradient(#ffffff, #e3e3e3);
+    background-image: -o-linear-gradient(#ffffff, #e3e3e3), -o-linear-gradient(#ffffff, #e3e3e3);
+    background-image: linear-gradient(#ffffff, #e3e3e3), linear-gradient(#ffffff, #e3e3e3);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.gradient-title:after {
+    position: absolute;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eaeaea), to(#f8f8f8));
+    background-image: -webkit-linear-gradient(#f8f8f8, #eaeaea);
+    background-image: -moz-linear-gradient(#f8f8f8, #eaeaea), -moz-linear-gradient(#f8f8f8, #eaeaea);
+    background-image: -o-linear-gradient(#f8f8f8, #eaeaea), -o-linear-gradient(#f8f8f8, #eaeaea);
+    background-image: linear-gradient(#f8f8f8, #eaeaea), linear-gradient(#f8f8f8, #eaeaea);
+    background-repeat: No-repeat;
+    content: "";
+    height: calc(92%);
+    width: calc(99%);
+    margin: 0 auto;
+    top: 2px;
+    left: 0.5px;
+    right: 0;
+    z-index: 2;
+}
+.gradient-title h3 {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.4;
+    z-index: 3;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.gradient-title  h6{
+    position: relative;
+    font-size: 15px;
+    line-height: 1.4;
+    z-index: 3;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    /* font-weight: bold; */
+}
+.col-form-label {
+    text-align:right;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 400;
+}
+.form-group {
+    margin-bottom: 0rem;
+}

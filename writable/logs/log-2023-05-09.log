@@ -1,0 +1,871 @@
+CRITICAL - 2023-05-09 09:14:07 --> syntax error, unexpected variable "$password", expecting ")"
+in APPPATH\Controllers\LoginController.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\project4\\app\\Controllers\\loginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\loginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\loginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\loginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:42:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 APPPATH\Views\admin\reports.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(45): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:43:27 --> Cannot use object of type mysqli as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(45): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:43:29 --> Cannot use object of type mysqli as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(45): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:43:37 --> Cannot use object of type mysqli as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(45): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:01:49 --> Invalid file: "user_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_profile.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_profile', [], true)
+ 3 APPPATH\Controllers\LoginController.php(42): view('user_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:01:51 --> Invalid file: "user_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_profile.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_profile', [], true)
+ 3 APPPATH\Controllers\LoginController.php(42): view('user_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:01:52 --> Invalid file: "user_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_profile.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_profile', [], true)
+ 3 APPPATH\Controllers\LoginController.php(42): view('user_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:01:53 --> Invalid file: "user_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_profile.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_profile', [], true)
+ 3 APPPATH\Controllers\LoginController.php(42): view('user_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:02:12 --> Invalid file: "user_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_profile.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_profile', [], true)
+ 3 APPPATH\Controllers\LoginController.php(42): view('user_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:26:28 --> Undefined array key ""
+in APPPATH\Views\admin\user_profile.php on line 11.
+ 1 APPPATH\Views\admin\user_profile.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\user_profile.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\user_profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/user_profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(46): view('admin/user_profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:51:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-05-09 10:53:38 --> mysqli_sql_exception: Column 'id' in on clause is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\system\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(52): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-09 10:53:38 --> Column 'id' in on clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\LoginController.php(52): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 10:53:40 --> mysqli_sql_exception: Column 'id' in on clause is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\system\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(52): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-09 10:53:40 --> Column 'id' in on clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = 59')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `offline_lc_report`
+JOIN `lesson` ON `id`=59
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\LoginController.php(52): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:23:34 --> Undefined variable $reports
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reports', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:23:41 --> Undefined variable $reports
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reports', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:23:56 --> Undefined variable $reports
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reports', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:24:17 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\project4\app\Controllers\LoginController.php on line 59
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\LoginController.php(59): view('admin/reports', '57')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:24:24 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\project4\app\Controllers\LoginController.php on line 59
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\LoginController.php(59): view('admin/reports', '57')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:34:02 --> include(../links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\lessons.php on line 1.
+ 1 APPPATH\Views\admin\lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php', 1)
+ 2 APPPATH\Views\admin\lessons.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 6 APPPATH\Controllers\LoginController.php(59): view('admin/lessons')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:34:05 --> include(../links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\lessons.php on line 1.
+ 1 APPPATH\Views\admin\lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php', 1)
+ 2 APPPATH\Views\admin\lessons.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 6 APPPATH\Controllers\LoginController.php(59): view('admin/lessons')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:34:22 --> include(/links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\lessons.php on line 1.
+ 1 APPPATH\Views\admin\lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php', 1)
+ 2 APPPATH\Views\admin\lessons.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 6 APPPATH\Controllers\LoginController.php(59): view('admin/lessons')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:35:39 --> Too few arguments to function App\Controllers\LoginController::lessons(), 0 passed in C:\xampp\htdocs\project4\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:56:22 --> Undefined array key "vedio_url"
+in APPPATH\Views\admin\lessons.php on line 32.
+ 1 APPPATH\Views\admin\lessons.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vedio_url"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 5 APPPATH\Controllers\LoginController.php(66): view('admin/lessons', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:56:28 --> Undefined array key "vedio_url"
+in APPPATH\Views\admin\lessons.php on line 32.
+ 1 APPPATH\Views\admin\lessons.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vedio_url"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\lessons.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 5 APPPATH\Controllers\LoginController.php(66): view('admin/lessons', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:21:41 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 59.
+ 1 APPPATH\Controllers\LoginController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:22:01 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 59.
+ 1 APPPATH\Controllers\LoginController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:52:42 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:53:14 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:54:16 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:54:22 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:55:55 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$57
+in APPPATH\Controllers\LoginController.php on line 60.
+ 1 APPPATH\Controllers\LoginController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$57', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:57:54 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 12:58:27 --> Invalid file: "http://localhost/project4/admin/lessons.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/project4/admin/lessons.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('http://localhost/project4/admin/lessons', [], true)
+ 3 APPPATH\Controllers\LoginController.php(68): view('http://localhost/project4/admin/lessons', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons('57')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:49:07 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:49:23 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:50:39 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:50:51 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:51:02 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:51:15 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:52:12 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:53:28 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:53:38 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:53:50 --> Call to undefined method App\Models\LoginModel::getLoginDetail
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Model->__call('getLoginDetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:54:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:54:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:54:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 17:58:15 --> mysqli_sql_exception: Unknown column '$useremail' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(21): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.or...', '8cb2237d0679ca8...')
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-09 17:58:15 --> Unknown column '$useremail' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from users where email=$useremail and password=$password', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from users where email=$useremail and password=$password')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from users where email=$useremail and password=$password')
+ 4 APPPATH\Models\LoginModel.php(21): CodeIgniter\Database\BaseConnection->query('select * from users where email=$useremail and password=$password')
+ 5 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 17:58:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964' at line 1 in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(21): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.or...', '8cb2237d0679ca8...')
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-09 17:58:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from users where email=jayeshm@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from users where email=jayeshm@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from users where email=jayeshm@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964')
+ 4 APPPATH\Models\LoginModel.php(21): CodeIgniter\Database\BaseConnection->query('select * from users where email=jayeshm@okcl.org and password=8cb2237d0679ca88db6464eac60da96345513964')
+ 5 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 17:59:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\LoginModel.php on line 23.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:00:32 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$first_name
+in APPPATH\Controllers\LoginController.php on line 26.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$first_name', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:00:50 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:02:08 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:12:06 --> Call to undefined method App\Models\LoginModel::num_row
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\LoginModel.php(23): CodeIgniter\Model->__call('num_row', [...])
+ 2 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:12:16 --> Call to undefined method App\Models\LoginModel::num_rows
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\LoginModel.php(23): CodeIgniter\Model->__call('num_rows', [...])
+ 2 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:17:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:18:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:18:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:18:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:18:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:18:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:19:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:22:32 --> Class "App\Models\DB" not found
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:23:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 18:23:39 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Models\LoginModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.or...', '8cb2237d0679ca8...')
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-09 18:23:39 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lesson`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\LoginModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 18:24:35 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Models\LoginModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.or...', '8cb2237d0679ca8...')
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-09 18:24:35 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `lesson`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lesson`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\LoginModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:27:20 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:27:33 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:28:44 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:28:53 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:29:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:29:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:32:38 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:34:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 8192 bytes)
+in APPPATH\Models\LoginModel.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-09 18:34:29 --> Call to protected App\Models\LoginModel::__construct() from scope App\Controllers\LoginController
+in APPPATH\Controllers\LoginController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:35:39 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:37:45 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:37:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('lesson')
+ 2 APPPATH\Models\LoginModel.php(20): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:38:11 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('users')
+ 2 APPPATH\Models\LoginModel.php(20): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 18:45:25 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\project4\app\Models\LoginModel.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.or...', '8cb2237d0679ca8...')
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#9 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-09 18:45:25 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`, `users`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`, `users`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`, `users`
+WHERE `email` = \'jayeshm@okcl.org\'
+AND `password` = \'8cb2237d0679ca88db6464eac60da96345513964\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`, `users`
+WHERE `email` = :email:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\LoginModel.php(20): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:46:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:46:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:47:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:48:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:48:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:49:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:49:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 18:50:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\LoginModel.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(25): App\Models\LoginModel->getLoginDetail('jayeshm@okcl.org', '8cb2237d0679ca88db6464eac60da96345513964')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

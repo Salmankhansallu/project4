@@ -1,0 +1,214 @@
+CRITICAL - 2023-05-06 11:18:11 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 11:19:16 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 11:19:17 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\LoginController.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 11:25:08 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project4\\public\\index.php')
+CRITICAL - 2023-05-06 14:16:44 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:17:31 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:17:35 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:33:01 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:34:20 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:34:21 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:34:25 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:34:47 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:35:38 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:36:37 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:36:42 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:36:44 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 14:36:47 --> The route for "dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dashboard')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\LoginController.php(14): redirect('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 17:40:21 --> include(dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 7.
+ 1 APPPATH\Views\admin\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php', 7)
+ 2 APPPATH\Views\admin\dashboard.php(7): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 17:40:33 --> include(links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 7.
+ 1 APPPATH\Views\admin\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php', 7)
+ 2 APPPATH\Views\admin\dashboard.php(7): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 17:40:49 --> include(../links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 7.
+ 1 APPPATH\Views\admin\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php', 7)
+ 2 APPPATH\Views\admin\dashboard.php(7): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 17:40:54 --> include(../links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 7.
+ 1 APPPATH\Views\admin\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php', 7)
+ 2 APPPATH\Views\admin\dashboard.php(7): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 17:42:03 --> include(../links/dashboard_link.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 7.
+ 1 APPPATH\Views\admin\dashboard.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../links/dashboard_link.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php', 7)
+ 2 APPPATH\Views\admin\dashboard.php(7): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

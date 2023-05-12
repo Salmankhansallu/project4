@@ -1,0 +1,2147 @@
+ERROR - 2023-05-10 04:46:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'monitoring_lc', 3306, '', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\project4\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\project4\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-10 04:46:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\LoginController.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:32:51 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:33:27 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:34:10 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:34:33 --> Attempt to read property "first_name" on array
+in APPPATH\Controllers\LoginController.php on line 27.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:34:47 --> Undefined array key "first_name"
+in APPPATH\Controllers\LoginController.php on line 27.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:35:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\LoginController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:35:17 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:36:46 --> Undefined array key "login_user"
+in APPPATH\Controllers\LoginController.php on line 31.
+ 1 APPPATH\Controllers\LoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_user"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:36:58 --> Undefined array key "login_user"
+in APPPATH\Controllers\LoginController.php on line 31.
+ 1 APPPATH\Controllers\LoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_user"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:40:16 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:41:28 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:43:15 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\header.php on line 55.
+ 1 APPPATH\Views\admin\header.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php', 55)
+ 2 APPPATH\Views\admin\dashboard.php(39): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(34): view('admin/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:43:28 --> Undefined array key "id"
+in APPPATH\Views\admin\header.php on line 55.
+ 1 APPPATH\Views\admin\header.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php', 55)
+ 2 APPPATH\Views\admin\dashboard.php(39): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(34): view('admin/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:47:11 --> Undefined array key 0
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:47:26 --> Undefined array key 0
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:48:20 --> Undefined array key 0
+in APPPATH\Controllers\LoginController.php on line 32.
+ 1 APPPATH\Controllers\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:49:08 --> Undefined array key "id"
+in APPPATH\Views\admin\header.php on line 55.
+ 1 APPPATH\Views\admin\header.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php', 55)
+ 2 APPPATH\Views\admin\dashboard.php(39): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\LoginController.php(34): view('admin/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:52:14 --> Undefined property: stdClass::$firstname
+in APPPATH\Controllers\LoginController.php on line 28.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:52:48 --> Undefined array key "id"
+in APPPATH\Controllers\LoginController.php on line 27.
+ 1 APPPATH\Controllers\LoginController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:53:08 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\LoginController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:53:20 --> Undefined property: stdClass::$firstname
+in APPPATH\Controllers\LoginController.php on line 28.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:53:56 --> Undefined property: stdClass::$firstname
+in APPPATH\Controllers\LoginController.php on line 28.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 05:54:05 --> Undefined property: stdClass::$firstname
+in APPPATH\Controllers\LoginController.php on line 28.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 06:00:57 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from l...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from l...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from l...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from l...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 06:00:57 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from lesson where user_id=\'59\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from lesson where user_id=\'59\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from lesson where user_id=\'59\'')
+ 4 APPPATH\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from lesson where user_id=\'59\'')
+ 5 APPPATH\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 06:01:33 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from l...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from l...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from l...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from l...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 06:01:33 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from lesson where user_id=\'59\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from lesson where user_id=\'59\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from lesson where user_id=\'59\'')
+ 4 APPPATH\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from lesson where user_id=\'59\'')
+ 5 APPPATH\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 06:01:35 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from l...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from l...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from l...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from l...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 06:01:35 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from lesson where user_id=\'59\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from lesson where user_id=\'59\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from lesson where user_id=\'59\'')
+ 4 APPPATH\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from lesson where user_id=\'59\'')
+ 5 APPPATH\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 06:01:44 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from l...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from l...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from l...')
+#3 C:\xampp\htdocs\project4\app\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from l...')
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 06:01:44 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * from lesson where user_id=\'59\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from lesson where user_id=\'59\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from lesson where user_id=\'59\'')
+ 4 APPPATH\Models\LoginModel.php(28): CodeIgniter\Database\BaseConnection->query('select * from lesson where user_id=\'59\'')
+ 5 APPPATH\Controllers\LoginController.php(55): App\Models\LoginModel->reportData(59)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:02:58 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:03:18 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:03:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:03:32 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:04:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:04:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(58): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:06:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 104.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:35 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 112.
+ 1 APPPATH\Views\admin\reports.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:54 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 113.
+ 1 APPPATH\Views\admin\reports.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:56 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 113.
+ 1 APPPATH\Views\admin\reports.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:10:11 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:10:12 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:10:21 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:10:23 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:10:24 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH\Views\admin\reports.php on line 103.
+ 1 APPPATH\Views\admin\reports.php(103): json_decode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:13:20 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:13:30 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:13:32 --> Attempt to read property "course_id" on string
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:16:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\admin\reports.php on line 110.
+ 1 APPPATH\Views\admin\reports.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:17:44 --> Undefined array key "report"
+in APPPATH\Views\admin\reports.php on line 111.
+ 1 APPPATH\Views\admin\reports.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "report"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:17:45 --> Undefined array key "report"
+in APPPATH\Views\admin\reports.php on line 111.
+ 1 APPPATH\Views\admin\reports.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "report"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:20:07 --> Undefined array key "report"
+in APPPATH\Views\admin\reports.php on line 112.
+ 1 APPPATH\Views\admin\reports.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "report"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:22:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:23:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:23:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\reports.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 4 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:26:07 --> Undefined variable $data
+in APPPATH\Views\admin\reports.php on line 107.
+ 1 APPPATH\Views\admin\reports.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:26:09 --> Undefined variable $data
+in APPPATH\Views\admin\reports.php on line 107.
+ 1 APPPATH\Views\admin\reports.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(59): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:44:34 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:44:42 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:44:44 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:46:01 --> Call to undefined function App\Controllers\get_instance()
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:46:02 --> Call to undefined function App\Controllers\get_instance()
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:46:09 --> Call to undefined function App\Controllers\get_instance()
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:12 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:13 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:18 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:48 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:49 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:47:54 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:48:05 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:48:06 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:50:39 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 APPPATH\Controllers\LoginController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:50:40 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 APPPATH\Controllers\LoginController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:50:44 --> Undefined property: App\Controllers\LoginController::$uri
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 APPPATH\Controllers\LoginController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:50:56 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:50:58 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:51:02 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:51:16 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:51:17 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:52:30 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:52:35 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:53:48 --> Undefined variable $uri
+in APPPATH\Controllers\LoginController.php on line 66.
+ 1 APPPATH\Controllers\LoginController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:54:29 --> Undefined variable $uri
+in APPPATH\Controllers\LoginController.php on line 67.
+ 1 APPPATH\Controllers\LoginController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:54:31 --> Undefined variable $uri
+in APPPATH\Controllers\LoginController.php on line 67.
+ 1 APPPATH\Controllers\LoginController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:59:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:59:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:59:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:00:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:00:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:00:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:01:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:01:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:01:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\lessons.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lessons', [], true)
+ 4 APPPATH\Controllers\LoginController.php(77): view('admin/lessons', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->lessons()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:12:55 --> Undefined variable $loginModel
+in APPPATH\Controllers\LoginController.php on line 49.
+ 1 APPPATH\Controllers\LoginController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginModel', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:14:39 --> Undefined variable $loginModel
+in APPPATH\Controllers\LoginController.php on line 49.
+ 1 APPPATH\Controllers\LoginController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginModel', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:14:41 --> Undefined variable $loginModel
+in APPPATH\Controllers\LoginController.php on line 49.
+ 1 APPPATH\Controllers\LoginController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginModel', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:14:46 --> Undefined variable $loginModel
+in APPPATH\Controllers\LoginController.php on line 49.
+ 1 APPPATH\Controllers\LoginController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginModel', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:14:48 --> Undefined variable $loginModel
+in APPPATH\Controllers\LoginController.php on line 49.
+ 1 APPPATH\Controllers\LoginController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginModel', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:42:46 --> mysqli_sql_exception: Unknown column 'lesson.user_id' in 'on clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:42:46 --> Unknown column 'lesson.user_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(89): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:42:49 --> mysqli_sql_exception: Unknown column 'lesson.user_id' in 'on clause' in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:42:49 --> Unknown column 'lesson.user_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lesson`
+JOIN `users` ON `users`.`id`=`lesson`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(89): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:49:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH\Controllers\LoginController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:49:33 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\app\Controllers\LoginController.php on line 90
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get('select * from users where users.id=course.user_id')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:49:35 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\app\Controllers\LoginController.php on line 90
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get('select * from users where users.id=course.user_id')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:49:36 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\app\Controllers\LoginController.php on line 90
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get('select * from users where users.id=course.user_id')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:50:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\LoginController.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:52:22 --> Invalid file: "admin/lesson.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lesson.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lesson', [], true)
+ 3 APPPATH\Controllers\LoginController.php(94): view('admin/lesson', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:53:20 --> Invalid file: "admin/lesson.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lesson.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lesson', [], true)
+ 3 APPPATH\Controllers\LoginController.php(94): view('admin/lesson', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:53:50 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:53:50 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:53:52 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:53:52 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:07 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:07 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:08 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:08 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:09 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:09 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:38 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:38 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:39 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:39 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:40 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:40 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:41 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:41 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:42 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:42 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:43 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:43 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:49 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:49 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:54:50 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:54:50 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:00 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:00 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:21 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:21 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:22 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:22 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:30 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:30 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:31 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:31 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:32 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:32 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:37 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:37 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 08:55:45 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\project4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\xampp\htdocs\project4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\xampp\htdocs\project4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\xampp\htdocs\project4\app\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\project4\system\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+#6 C:\xampp\htdocs\project4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\project4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 08:55:45 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `course`
+JOIN `users` ON `users`.`id`=`course`.`user_id`', [], false)
+ 5 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:55:46 --> Invalid file: "admin/lesson.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lesson.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lesson', [], true)
+ 3 APPPATH\Controllers\LoginController.php(94): view('admin/lesson', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:55:47 --> Invalid file: "admin/lesson.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lesson.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lesson', [], true)
+ 3 APPPATH\Controllers\LoginController.php(94): view('admin/lesson', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:55:59 --> Invalid file: "admin/lesson.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lesson.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/lesson', [], true)
+ 3 APPPATH\Controllers\LoginController.php(94): view('admin/lesson', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->join_table()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:10:11 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:10:20 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:10:32 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:10:33 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:11:10 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 117.
+ 1 APPPATH\Views\admin\reports.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 10:12:02 --> Undefined property: stdClass::$section_title
+in APPPATH\Views\admin\reports.php on line 126.
+ 1 APPPATH\Views\admin\reports.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$section_title', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\reports.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/reports', [], true)
+ 5 APPPATH\Controllers\LoginController.php(62): view('admin/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:44:04 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\project4\\app\\Controllers\\loginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\loginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\loginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\loginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:44:07 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\project4\\app\\Controllers\\loginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\loginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\loginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\loginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:44:09 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\project4\\app\\Controllers\\loginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\loginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\loginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\loginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:44:10 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\project4\\app\\Controllers\\loginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\loginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\loginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\loginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:56:49 --> Undefined array key "email"
+in APPPATH\Views\admin\change_password.php on line 12.
+ 1 APPPATH\Views\admin\change_password.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:56:51 --> Undefined array key "email"
+in APPPATH\Views\admin\change_password.php on line 12.
+ 1 APPPATH\Views\admin\change_password.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:56:52 --> Undefined array key "email"
+in APPPATH\Views\admin\change_password.php on line 12.
+ 1 APPPATH\Views\admin\change_password.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:57:10 --> Undefined array key "email"
+in APPPATH\Views\admin\change_password.php on line 12.
+ 1 APPPATH\Views\admin\change_password.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:57:20 --> Undefined array key "email"
+in APPPATH\Views\admin\change_password.php on line 12.
+ 1 APPPATH\Views\admin\change_password.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:58:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:59:06 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:59:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:59:29 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:00:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:00:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:00:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:00:58 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:01:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:02:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:02:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:02:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:02:52 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:02:58 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:03:18 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:04:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:04:29 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 112.
+ 1 APPPATH\Controllers\LoginController.php(112): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:05:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:05:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:06:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:07:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:08:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:10:06 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 110.
+ 1 APPPATH\Controllers\LoginController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\project4\\app\\Controllers\\LoginController.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:11:18 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('users')
+ 2 APPPATH\Controllers\LoginController.php(108): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:11:28 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\project4\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('users')
+ 2 APPPATH\Controllers\LoginController.php(108): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:18:43 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(120): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:19:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\user_profile.php on line 11.
+ 1 APPPATH\Views\admin\user_profile.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\user_profile.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\user_profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/user_profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(50): view('admin/user_profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->user_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:24:49 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(120): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password_method()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:25:41 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:25:44 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:25:46 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:25:57 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:26:32 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:26:33 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:26:34 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:26:42 --> Undefined variable $error
+in APPPATH\Views\admin\change_password.php on line 15.
+ 1 APPPATH\Views\admin\change_password.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\project4\\app\\Views\\admin\\change_password.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/change_password', [], true)
+ 5 APPPATH\Controllers\LoginController.php(100): view('admin/change_password')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->change_password()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
